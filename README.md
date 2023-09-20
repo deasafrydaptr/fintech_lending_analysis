@@ -38,7 +38,10 @@ Welcome to the Fintech Lending Analysis Project! This project focuses on conduct
 
 In this project, I follow the SEMMA methodology, which stands for Simple, Explore, Modify, Model, and Assess. Here's a brief overview of each step:
 
-- **Sample**: Data is collected by extracting user comments from Google Play Store related to popular fintech lending applications. A random sample is taken, adjusting for a margin of error (+/- 4%) and a confidence level of 99%. The labeling process includes categorizing comments into positive, negative, and neutral sentiments based on predefined criteria.
+- **Sample**: Data is collected by extracting user comments from Google Play Store related to popular fintech lending applications. A random sample is taken, adjusting for a margin of error (+/- 4%) and a confidence level of 99%. The labeling process includes categorizing comments into positive, negative, and neutral sentiments based on the criteria below:
+   - Positive Sentiment: Praise, gratitude, enthusiasm, and recommendations to others.
+   - Negative Sentiment: Complaints, criticisms, sarcasm, and threats.
+   - Neutral Sentiment: General inquiries, and comments with minimal emotional content.
 
 - **Explore**: Information about the data is gathered, including attributes, data quantity, presence of missing values, and data types. Basic visualizations, such as bar charts, are utilized to analyze sentiment label distribution.
 
@@ -57,10 +60,10 @@ In this project, I follow the SEMMA methodology, which stands for Simple, Explor
   - **EasyCash**: (Accuracy: 89%, Precision: 95%, Recall: 87%, F1-Score: 96%)
   - **Kredit Pintar**: (Accuracy: 85%, Precision: 89%, Recall: 94%, F1-Score: 96%)
 
-- **Word Cloud Analysis**:
-  - **Positive Sentiment**: Commonly mentioned topics include praise, gratitude, and satisfaction expressed by users towards the fintech lending apps.
-  - **Negative Sentiment**: Users often discuss issues related to loan rejection and payment problems.
-  - **Neutral Sentiment**: Comments in this category may focus on process approval, app rating, and other less emotionally charged topics.
+- Word Cloud Findings:
+  - **Positive**: Commonly mentioned topics include praise, gratitude, and satisfaction expressed by users towards the fintech lending apps.
+  - **Negative**: Users often discuss issues related to loan rejection and payment problems.
+  - **Neutral**: Comments in this category may focus on process approval, app rating, and other less emotionally charged topics.
 
 ## Challenges:
 
