@@ -19,13 +19,20 @@ Welcome to the Fintech Lending Analysis Project! This project focuses on conduct
 
 ## Libraries Used:
 
-- pandas                - swifter
-- NumPy                 - seaborn
-- matplotlib            - wordcloud
-- sci-kit learn         - PIL
-- regex                 - pickle
-- nltk                  - googletrans
-- sastrawi              - google-play-scraper
+- pandas
+- numpy
+- matplotlib
+- scikit-learn
+- regex
+- nltk
+- sastrawi
+- swifter
+- seaborn
+- wordcloud
+- PIL
+- pickle
+- googletrans
+- google-play-scraper
 
 ## Methodology: SEMMA
 
